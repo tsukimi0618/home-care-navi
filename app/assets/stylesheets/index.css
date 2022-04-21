@@ -1,0 +1,47 @@
+.application-wrap{
+  flex: 1 1 auto;
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+
+}
+
+.header{
+  left: 0px;
+  height: 52px;
+}
+
+.header-bar-content{
+  height: 52px;
+  align-items: center;
+  display: flex;
+  padding: 4px 16px;
+}
+
+.header_title{
+  height: 60px;
+  width: 100vw;
+}
+
+.image{
+  height: 100%;
+  width: 150px;
+}
+
+
+.main-wrap{
+  max-width: 100%;
+  min-height: calc(100vh - 60px);
+  background-color: #f5f7f7;
+  flex: 1 1 auto;
+}
+
+
+.footer{
+  width: 100%;
+  min-height:  50px;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+  background-color: white;
+}
